@@ -4,9 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <div class="container">
+        <header>
+            <h1 style="text-align: center; ">Axel Waldenborg</h1>
+        </header>
+        <section>
+            <h2>Om Mig</h2>
+            <p>Jag är en dedikerad och målinriktad individ med passion för teknik och problemlösning. Med en bakgrund inom datavetenskap och en stark förmåga att arbeta både självständigt och i team, strävar jag efter att leverera högkvalitativa lösningar.</p>
+        </section>
+        <section>
+            <h2>Erfarenhet</h2>
+            <ul>
+                <li>Software Developer, XYZ Company (2020-nu)</li>
+                <li>Praktikant, ABC IT Solutions (2018-2019)</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Utbildning</h2>
+            <ul>
+                <li>Kandidatexamen i Datavetenskap, Universitetet i Stockholm (2016-2020)</li>
+                <li>Gymnasieexamen, Teknikprogrammet, Gymnasieskolan Y</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Färdigheter</h2>
+            <ul>
+                <li>Programmeringsspråk: Java, Python, JavaScript</li>
+                <li>Webbutveckling: HTML, CSS</li>
+                <li>Verktyg: Git, Docker</li>
+            </ul>
+        </section>
+        <footer>
+            <a href="/page.html">Kontakta mig</a>
+            <p>Kontakt: axel.waldenborg@ntig.elev.g.com</p>
+        </footer>
+    </div>
     
 </body>
 </html>
+
+<style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+    body {
+        
+            font-family: "Nunito Sans", sans-serif;
+            font-style: normal;
+            font-weight: 200;
+            line-height: 1.6;
+            margin: 0;
+            padding: 5%;
+            font-size: 5vh;
+        }
+        .container {
+            width: 100%;
+            max-width: 1000px;
+            margin: auto;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 8vh;
+          margin-top: 0;
+        }
+        h2{
+            font-size: 6vh;
+        }
+   
+
+        /* Responsive CSS */
+        @media screen and (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+        }
+</style>
