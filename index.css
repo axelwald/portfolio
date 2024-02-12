@@ -1,40 +1,78 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-body {
-    
-        font-family: "Nunito Sans", sans-serif;
-        font-style: normal;
-        font-weight: 200;
-        line-height: 1.6;
-        margin: 0;
-        padding: 5%;
-        font-size: 5vh;
-    }
+* {
+    margin: 0; /* Resets margin for all elements */
+    padding: 0; /* Resets padding for all elements */
+    box-sizing: border-box; /* Ensures padding and border are included in the total width and height */
+    font-family: "Nunito Sans", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    color: #fff;
+    line-height: 1.6;
+}
+
+body, html {
+    height: 100%; /* Full height for both html and body */
+    width: 100%; /* Full width for both html and body */
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, rgb(11, 11, 22) 50%, rgb(43, 42, 42));
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+.container {
+    margin: 0 auto;
+    padding: 5vmin;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px; /* Maximum width of the container */
+    width: 100%; /* Make the container take up to 100% of the body's width */
+    font-size: 2vmin;
+    padding: 10%;
+    border: solid black;
+}
+
+h1, h2 {
+    text-align: center;
+    width: 100%; /* Ensure headings take full width of their container */
+    border: solid black;
+}
+
+h1 {
+    font-size: 5vmin;
+    font-weight: 500;
+    margin: 2vmin 0;
+}
+
+h2 {
+    font-size: 4vmin;
+    font-weight: 300;
+    margin: 1.5vmin 0;
+}
+
+
+
+/* Media Queries */
+@media (max-width: 768px) {
     .container {
-        width: 100%;
-        max-width: 1000px;
-        margin: auto;
-        overflow: hidden;
+        font-size: 5vmin;
     }
+
     h1 {
-        font-size: 8vh;
-      margin-top: 0;
-    }
-    h2{
-        font-size: 6vh;
+        font-size: 7vmin;
     }
 
-
-    /* Responsive CSS */
-    @media screen and (max-width: 600px) {
-        .container {
-            padding: 10px;
-        }
-        h1 {
-            font-size: 24px;
-        }
-        h2 {
-            font-size: 20px;
-        }
+    h2 {
+        font-size: 6vmin;
     }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10vmin;
+    }
+
+    h1, h2 {
+        font-weight: 400;
+    }
+}
