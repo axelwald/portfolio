@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 * {
-    margin: 0; /* Resets margin for all elements */
-    padding: 0; /* Resets padding for all elements */
-    box-sizing: border-box; /* Ensures padding and border are included in the total width and height */
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box; 
     font-family: "Nunito Sans", sans-serif;
     font-style: normal;
     font-weight: 100;
@@ -12,12 +12,12 @@
 }
 
 body, html {
-    height: 100%; /* Full height for both html and body */
-    width: 100%; /* Full width for both html and body */
+    height: 100%; 
+    width: 100%; 
     margin: 0;
     padding: 0;
     background: linear-gradient(45deg, rgb(11, 11, 22) 50%, rgb(43, 42, 42));
-    overflow-x: hidden; /* Hide horizontal overflow */
+    overflow-x: hidden; 
 }
 
 .container {
@@ -25,8 +25,8 @@ body, html {
     padding: 5vmin;
     display: flex;
     flex-direction: column;
-    max-width: 1200px; /* Maximum width of the container */
-    width: 100%; /* Make the container take up to 100% of the body's width */
+    max-width: 1200px;
+    width: 100%; 
     font-size: 2vmin;
     padding: 10%;
     border: solid black;
@@ -34,7 +34,7 @@ body, html {
 
 h1, h2 {
     text-align: center;
-    width: 100%; /* Ensure headings take full width of their container */
+    width: 100%; 
     border: solid black;
 }
 

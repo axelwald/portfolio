@@ -17,11 +17,11 @@ body {
 
 
 h1 {
-  margin-top: 10vh; /* Adjusted to viewport height for better responsiveness */
+  margin-top: 10vh; /* adjust to viewport height for better responsiveness */
   text-align: center;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 200;
-  font-size: 4vmin; /* Responsive font size */
+  font-size: 4vmin; /* responsive font size */
   color:white;
 }
 
@@ -29,16 +29,16 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap; /* Allows icons to wrap on smaller screens */
+  flex-wrap: wrap; /* allows icons to wrap on smaller screens */
 }
 
 .fa {
   width: 5vmin;
   height: 5vmin;
   padding: 2vmin;
-  margin: 1vmin; /* Simplified margin for consistent spacing */
+  margin: 1vmin; 
   text-align: center;
-  font-size: 2em; /* Consider using 'vw' for scalable icons */
+  font-size: 2em; 
   text-decoration: none;
   border-radius: 15%;
   line-height: 5vmin;
@@ -69,15 +69,15 @@ h1 {
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   h1 {
-    font-size: 6vmin; /* Larger font size for better readability on small screens */
+    font-size: 6vmin; 
   }
   
   .fa {
-    width: 10vmin; /* Larger icons for easier interaction on touch devices */
+    width: 10vmin; 
     height: 10vmin;
     padding: 3vmin;
     line-height: 10vmin;
-    margin: 3vmin; /* Increased spacing for touch targets */
+    margin: 3vmin; 
   }
 }
 
